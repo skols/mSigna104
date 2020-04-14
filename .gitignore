@@ -1,0 +1,7 @@
+/Makefile
+build/*
+*.Debug
+*.Release
+BuildInfo.h
+*.tmp
+.qmake.stash

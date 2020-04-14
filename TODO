@@ -1,0 +1,33 @@
+TODO
+====
+
+UI
+--
+
+- Icons for the remaining actions.
+
+- Add toolbars for keychain, account, and transaction actions.
+
+- Add account selection drop down in Transactions tab.
+
+- Add option to automatically open whatever vault was open last time application closed. Remember full application state (open tab, selected items) and reload accordingly.
+
+- Remember recently opened vaults, add shortcuts to File menu.
+
+- Add Save As... option to file menu.
+
+- Allow account selection from drop down in Create Transaction dialog. Use selected account as default.
+
+- Redesign dialog layouts (Create Transaction and Request Payment in particular).
+
+- Prompt user to select account if more than one account exists when opening a payment url.
+
+- Remove extraneous, unused objects from UI classes.
+
+
+General
+-------
+
+- Use timer to explicitly request transactions in merkle block if sync gets stuck because the bitcoin node already sent us the transactions when a different vault or no vault was open.
+
+- Filter the mempool ourselves.
